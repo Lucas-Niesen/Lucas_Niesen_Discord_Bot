@@ -11,9 +11,6 @@ var host = '0.0.0.0';
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
-const Database = require("@replit/database")
-const db = new Database()
-require("replit-dis-uniter")(client);
 
 
 //var send_channel = "general"
@@ -59,7 +56,7 @@ setInterval(function() {
     });
 
 }, the_interval);*/
-
+/*
 client.on("messageCreate", message => {
   //console.log(message);
   if (message.channelId == Channel_send_bot_commands.id) {
@@ -183,7 +180,7 @@ client.on('interactionCreate', async interaction => {
 
 
 
-
+*/
 
 
 
